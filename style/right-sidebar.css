@@ -1,0 +1,138 @@
+.right_sidebar {
+    position: sticky;
+    top: 0;
+    height: 100vh;
+    z-index: 1;
+    width: 300px;
+}
+
+.search-container {
+    background-color: var(--wevaxx-background);
+    border-radius: 30px;
+    padding: 10px;
+    margin: 5px auto;
+    cursor: pointer;
+    border: 1px solid var(--wevaxx-background);
+}
+
+.search-container .search-input {
+    border: none;
+    outline: none;
+    font-size: 16px;
+    background-color: rgba(0,0,0,0);
+}
+
+.search-container .search-btn .fa {
+    color: rgb(101,119,134);
+    font-size: 16px;
+    margin-right: 5px;
+}
+
+.trends_box {
+    background-color: rgb(245,248,250);
+    border-radius: 15px;
+    margin: 15px auto;
+    width: 95%;
+    cursor: pointer;
+    margin-left: 50px;
+    margin-top: 83px;
+}
+.trends_box1 {
+    background-color: rgb(245,248,250);
+    border-radius: 15px;
+    margin: 15px auto;
+    width: 100%;
+    cursor: pointer;
+    margin-left: -20px;
+    margin-top: 83px;
+}
+
+.trends_header {
+    display: flex;
+    width: 100%;
+    border-bottom:  1px solid #e0e5e9;
+    padding: 15px 15px 10px;
+}
+
+.trend {
+    border-bottom: 1px solid #e0e5e9;
+    padding: 15px;
+}
+
+.trend:hover, .trends_show-more:hover {
+    background-color: rgb(231, 233, 235);
+}
+
+.trends_show-more {
+    padding: 15px;
+}
+
+.trends_show-more a {
+    color: var(--wevaxx-color);
+}
+
+.trends_show-more:hover {
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.trends_body span {
+    font-size: 14px;
+    color: rgb(101,119,134);
+}
+
+.trends_body p {
+    font-weight: 700;
+}
+
+.trends_header p {
+    width: 100%;
+    font-size: 16px;
+    font-weight: 900;
+    color: #3B4F69;
+}
+
+.trends_header .fa-cog {
+    color: var(--wevaxx-color);
+    font-size: 25px;
+}
+.trends_header .fa-newspaper {
+    color: #3B4F69;
+    margin-left: 100px;
+    font-size: 25px;
+}
+
+.tweet_box1 {
+    padding: 20px 15px 20px 0;
+    border-bottom: 1px solid var(--wevaxx-background);
+    display: flex;
+}
+.tweet_add1 {
+    border-bottom: 10px solid var(--wevaxx-background);
+}
+.tweet_left1 img {
+    width: 80px;
+    height: 60px;
+    margin-top: 15px;
+}
+
+a {
+    color: #000;
+}
+
+.trends_container {
+    width: 400px;
+    z-index: -1;
+}
+
+#img-manila {
+    margin-top: 20px;
+}
+
+#img-phil {
+    margin-top: 40px;
+}
+
+#img-mb {
+    margin-top: 20px;
+}

@@ -1,0 +1,175 @@
+.uf-container {
+    position: relative;
+    width: 400px;
+    background: #f0f0f0;
+    padding: 20px 30px;
+    border: 1px solid #3B4F69;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 710px;
+    margin-top: 170px;
+}
+
+.uf-container .post {
+    display: none;  
+}
+
+.uf-container .text {
+    font-size: 25px;
+    color: #666;
+    font-weight: 500;
+}
+  
+.uf-container .edit {
+    position: absolute;
+    right: 10px;
+    top: 5px;
+    font-size: 16px;
+    color: #666;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.uf-container .edit:hover {
+    text-decoration: underline;
+}
+  
+.uf-container .star-widget input[type=radio] {
+    display: none;
+}
+
+.star-widget label {
+    font-size: 40px;
+    color: #444;
+    padding: 10px;
+    float: right;
+    transition: all 0.2s ease;
+}
+
+input[type=radio]:not(:checked) ~ label:hover,
+input[type=radio]:not(:checked) ~ label:hover ~ label { 
+    color: #fd4;
+}
+  
+input[type=radio]:checked ~ label {
+    color: #fd4;
+}
+  
+input[type=radio]#rate-5:checked ~ label {
+    color: #fe7;
+    text-shadow: 0 0 20px rgb(182, 184, 79);
+}
+  
+#rate-1:checked ~ form header:before {
+    content: "Don't like it";
+}
+  
+#rate-2:checked ~ form header:before {
+    content: "It's okay ";
+}
+  
+#rate-3:checked ~ form header:before {
+    content: "Like it ";
+}
+  
+#rate-4:checked ~ form header:before {
+    content: "It's awesome ";
+}
+  
+#rate-5:checked ~ form header:before {
+    content: "Love it ";
+}
+  
+.uf-container form{
+    display: none;
+}
+  
+input[type=radio]:checked ~ form {
+    display: block;
+}
+  
+form header {
+    width: 100%;
+    font-size: 25px;
+    color: #444;
+    font-weight: 500;
+    margin: 5px 0 20px 0;
+    text-align: center;
+    transition: all 0.2s ease;
+}
+  
+form .name {
+    height: 45px;
+    width: 100%;
+    overflow: hidden;
+    margin: 15px 0;
+}
+
+form .name input {
+    height: 100%;
+    width: 100%;
+    outline: none;
+    color: #eee;
+    border: 1px solid #333;
+    background: #222;
+    padding: 10px;
+    font-size: 17px;
+    resize: none;
+}
+.name input:focus {
+    border-color: #444;
+}
+  
+form .textarea {
+    height: 140px;
+    width: 100%;
+    overflow: hidden;
+}
+  
+form .textarea textarea {
+    height: 100%;
+    width: 100%;
+    outline: none;
+    color: #111;
+    border: 1px solid #7F9FB3;
+    background: #7F9FB3;
+    padding: 10px;
+    font-size: 17px;
+    resize: none;
+}
+
+.textarea textarea:focus {
+    border-color: #fff;
+}
+  
+form .btn123 {
+    height: 45px;
+    width: 100%;
+    margin: 15px 0;
+}
+  
+form .btn123 button {
+    height: 100%;
+    width: 100%;
+    border: 1px solid #B53F49;;
+    outline: none;
+    background: #B53F49;;
+    color: #fff;
+    font-size: 17px;
+    font-weight: 500;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+form .btn123 button:hover {
+    background: #B53F49;
+}
+
+::placeholder {
+    color:#fff;
+    opacity: .5; 
+}
